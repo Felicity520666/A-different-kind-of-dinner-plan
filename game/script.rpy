@@ -23,8 +23,11 @@ label start:
     pause 3
     #scene zoom at bg_cover with dissolve
     pause 1
+    play sound "girl-laugh-6689.mp3"
     l "What a beautiful day!"
     a "Indeed it is, Lucy. Perfect for an adventure."
+    play sound "girl-oh-no-150550.mp3"
+    l "Oh no..."
     l "What...? An adventure?"
     l "Are you kidding me, Abby?!"
     l "You know how much I hate..."
@@ -35,18 +38,26 @@ label start:
     a "So get ready for an unforgettable day full of suprises!"
     l "Ugh! Abby! You..."
     a "It's settled then! Remember to bring a flashlight!"
-    a "Oh! We might get hungry!"
+    play sound "teenage-girl-says-woo-186594.mp3"
+    a "Woo! We might get hungry!"
     a "So we can go have dinner together at seven o'clock and go exploring the cave in the dark!"
     a "Oh la la! That way it's way more fun!"
     a "So see you at seven o'clock, Lucy!"
+    play sound "girl-sighs-80765.mp3"
     l "..."
-    l "What the f*ck?!"
     scene bedroom at bg_cover with fade
     pause 1.1
     scene cy at bg_cover with fade
+    play sound "female-scream-short-251067.mp3"
     l "What the f*ck?!"
     l "Why is Abby so annoying!!!"
     l "She just does whatever she wants! She doesn't listen to me at all—it feels like I'm invisible."
     l "Ugh! I can't stand it!!!"
-
-    
+    l "Why are we even friends?!"
+    l "That whole “adventure in a cave” idea — like what are we, broke explorers?!"
+    play sound "sigh_1_female-83927.mp3"
+    l "I just want to stay home and watch my freaking TV! I'm definitely not going..."
+    l "…Or maybe I could go and give her A DIFFERENT KINF OF DINNER PLAN..."
+    l "Yeah, let's do that..."
+    l "She doesn't deserve to be my bestie anymore:("
+    scene res at bg_cover with dissolve
