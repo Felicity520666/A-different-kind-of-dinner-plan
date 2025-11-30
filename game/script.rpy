@@ -20,9 +20,7 @@ label start:
         zoom 1.21
 
     scene res at bg_cover with fade
-    pause 3
-    #scene zoom at bg_cover with dissolve
-    pause 1
+    pause 5
     play sound "girl-laugh-6689.mp3"
     l "What a beautiful day!"
     a "Indeed it is, Lucy. Perfect for an adventure."
@@ -46,6 +44,7 @@ label start:
     play sound "girl-sighs-80765.mp3"
     l "..."
     scene bedroom at bg_cover with fade
+    play music "emotional-sad-guitar-music-349888 6.29.52 PM.mp3"
     pause 1.1
     scene cy at bg_cover with fade
     play sound "female-scream-short-251067.mp3"
@@ -61,3 +60,47 @@ label start:
     l "Yeah, let's do that..."
     l "She doesn't deserve to be my bestie anymore:("
     scene res at bg_cover with dissolve
+    play music "mad-145260.mp3"
+    a "Oh hey Lucy!"
+    a "Are you ready!"
+    l "Oh yeah Abby..."
+    l "I AM SO READY..."
+    l "TO CUT TIES WITH YOU!"
+    play sound "crying-411857.mp3"
+    a "Lucy...? Boohoo... What are you even talking about...?"
+    a "You're mean..."
+    play sound "grunting-228447.mp3"
+    l "Me? Mean?"
+    l "YOU are mean!"
+    l "You never listened to me!"
+    l "Every conversation is you talking about your ideas."
+    l "And when I try to say something, it's like shouting into a tunnel."
+    l "I don't enjoy our friendship anymore!"
+    play sound "girl-oh-no-150550.mp3"
+    a "Oh, no!"
+    a "Lucy, please..."
+    a "I didn't know you felt this way."
+    a "You could've just told me."
+    l "I tried. Dozens of times."
+    l "You brushed it off."
+    a "Well, I'm sorry..."
+    a "So, you don't like adventures...?"
+    l "Abby!!!"
+    a "Okay, okay, I get it now..."
+    a "How was I suppose to know?"
+    l "Abby, what frustrates me isn't that you didn't know. It's that you didn't try to know."
+    l "I shouldnt have to fight you just to be heard."
+    l "Friendship isn't supposed to feel like competing for attention."
+    play sound "sigh_1_female-83927"
+    a "Wow Lucy, I didn't realize you thought I was that terrible of a friend."
+    l "I don't think you're terrible. I think you're self-absorbed and not willing to admit it!"
+    l "Bye Abby. I hope you find a new bestie who don't get annoyed with you!"
+    play sound "im-sorry-what-83636.mp3" volume 5.0
+    a "I'm sorry what?!"
+    a "Lucy... You... You're joking right?"
+    l "I'm not. I can't keep giving and giving while you take and take and call it friendship."
+    play sound "girl-sighs-80765.mp3"
+    l "I'm tired. I'm hurt. And I don't trust that anything will change, because every time I've brought something up, you made me feel like I was overreacting."
+    l "For once, Abby, maybe just listen. Goodbye."
+    a "..."
+    return
